@@ -13,7 +13,7 @@ const Footer = () => {
       <Menu.Item>
         <AboutPopup />
       </Menu.Item>
-      <Menu.Menu position='right'>
+      <Menu.Menu position='right' className="mobile hidden">
           <Menu.Item>
             Powered{'\u00b7'}by{'\u00b7'}<a href="https://audiomack.com/" target="_blank" rel="noopener noreferrer">Audiomack</a>{'\u00b7'}and{'\u00b7'}<a href="http://www.broadcastify.com/" target="_blank" rel="noopener noreferrer">Broadcastify</a>
           </Menu.Item>

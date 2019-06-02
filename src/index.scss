@@ -106,6 +106,16 @@ a.white {
   font-family: Lato;
 }
 
+.mobile {
+  display: none;
+}
+@media (max-width: 320px) {
+  .mobile {
+    display: block;
+    font-size: 14px;
+  }
+}
+
 .noise {
   position: fixed;
   top: 0;
