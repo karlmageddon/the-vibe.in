@@ -21,6 +21,24 @@ body {
   position: absolute;
 }
 
+.title br {
+  display: none;
+}
+
+@media (max-width: 414px) {
+  .title {
+    padding-top: 60px;
+  }
+  .title h1 {
+    font-size: 1.5rem;
+    padding-top: 0px;
+  }
+  .title br {
+    display:block;
+  }
+}
+
+
 .footer {
   position: absolute;
   left: 0 ; right: 0; bottom: 0;
