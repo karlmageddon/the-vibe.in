@@ -21,6 +21,25 @@ body {
   position: absolute;
 }
 
+.title br {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .title {
+    padding-top: 60px;
+  }
+  .title h1 {
+    font-size: 1.5rem;
+    padding-top: 0px;
+  }
+
+  .title br {
+    display:block;
+  }
+}
+
+
 .footer {
   position: absolute;
   left: 0 ; right: 0; bottom: 0;
@@ -104,16 +123,6 @@ a.white {
 
 .about {
   font-family: Lato;
-}
-
-.mobile {
-  display: none;
-}
-@media (max-width: 320px) {
-  .mobile {
-    display: block;
-    font-size: 14px;
-  }
 }
 
 .noise {

@@ -47,7 +47,9 @@ class City extends React.Component {
       <React.Fragment>
       <img alt="the city" className='cityimage' src={bgImages[this.props.city]} />
       <Container className='title'>
-        <P className='maintext mobile'>the-vibe.in/<br className="mobile">{this.props.city.toUpperCase()}</P>
+        <P className='maintext'>
+          the-vibe.in/<br className='mobilebreak'/>{this.props.city.toUpperCase()}
+        </P>
         <U>
         <Player city={this.props.city} />
         </U>
