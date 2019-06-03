@@ -25,7 +25,7 @@ body {
   display: none;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 768px) {
   .title {
     padding-top: 60px;
   }
@@ -37,6 +37,7 @@ body {
     display:block;
   }
 }
+
 
 .footer {
   position: absolute;
